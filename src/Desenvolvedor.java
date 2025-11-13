@@ -16,9 +16,9 @@ public class Desenvolvedor extends Funcionario {
     }
 
     @Override
-    public void calcularSalario() {
+    public double calcularSalario() {
         double calcularSalario = this.salarioBase + (this.quantidadeProjetos * 500);
-        System.out.println("O salario total é: " + calcularSalario);
+        return calcularSalario;
 
     }
 

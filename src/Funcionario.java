@@ -23,7 +23,7 @@ abstract class Funcionario {
         this.salarioBase = salarioBase;
     }
 
-    public abstract void calcularSalario();
+    public abstract double calcularSalario();
 
 }
 

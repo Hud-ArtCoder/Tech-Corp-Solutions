@@ -15,8 +15,8 @@ public class Gerente extends Funcionario {
     }
 
     @Override
-    public void calcularSalario() {
+    public double calcularSalario() {
         double calcularSalario = this.salarioBase + this.bonus;
-        System.out.println("O salario total é: " + calcularSalario);
+        return calcularSalario;
     }
 }

@@ -11,9 +11,12 @@ public class Main {
 
 
         for (Funcionario f : funcionarios) {
-            System.out.println("Nome: " + f.getNome() + ": Cargo-" + f.getClass().getSimpleName());
+            System.out.println("Nome: " + f.getNome() + "- Cargo-" + f.getClass().getSimpleName()
+            + ": Salario - " + f.calcularSalario());
 
         }
+
+
     }
 
 }
